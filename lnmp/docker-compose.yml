@@ -27,7 +27,6 @@ php7:
 # web
 nginx:
     build: ./nginx
-    image:lnmp_nginx:01
     ports:
         - "8000:80"
         - "8430:443"

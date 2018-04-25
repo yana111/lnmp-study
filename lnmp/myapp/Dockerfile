@@ -4,7 +4,7 @@
 # https://github.com/yana111/lnmp-study.git
 #
 
-FROM lnmp_nginx:01
+FROM lnmp_nginx
 MAINTAINER yana <cylichan@hotmail.com>
 
 #配置nginx

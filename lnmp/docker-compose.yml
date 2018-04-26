@@ -37,7 +37,7 @@ nginx:
     restart: always
 
 # myapp
-myqpp:
+myapp:
     build: ./myapp
     ports:
         - "8001:80"
@@ -45,6 +45,5 @@ myqpp:
     links:
         - php7
     volumes:
-        - ./myapp/config/myapp.conf:/usr/local/nginx/conf/myapp.conf:ro
         - /var/www/html:/usr/local/nginx/html
     restart: always

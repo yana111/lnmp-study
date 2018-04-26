@@ -46,6 +46,6 @@ myapp:
         - php7
     volumes:
         - /var/www/html:/usr/local/nginx/html
-    run:
+    cmd:
         - cd /usr/local/nginx/html/laravel/public && php /bin/composer install 
     restart: always
